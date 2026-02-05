@@ -27,7 +27,7 @@ def print_welcome():
 def main():
     # Initialize Azure AI client
     endpoint = "https://models.github.ai/inference"
-    model = "openai/gpt-5"
+    model = "gpt-4o"
     token = os.environ["GITHUB_TOKEN"]
     
     client = ChatCompletionsClient(
